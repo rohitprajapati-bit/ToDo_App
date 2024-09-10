@@ -1,4 +1,4 @@
-# ToDo_App
+# ToDos_App
 
 This ToDos app, developed using Flutter, offers a seamless way to manage tasks with an intuitive user interface. It allows users to create, update, and delete tasks with ease, ensuring efficient organization of daily activities. The app is built to be lightweight and responsive, providing smooth performance across both Android and iOS platforms. With clear categorization and reminder features, it helps users stay on top of their to-do lists. The clean design and simple functionality make task management straightforward and effective.
 
