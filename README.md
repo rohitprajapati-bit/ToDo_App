@@ -1,11 +1,105 @@
-# ToDos_App
-
-This ToDos app, developed using Flutter, offers a seamless way to manage tasks with an intuitive user interface. It allows users to create, update, and delete tasks with ease, ensuring efficient organization of daily activities. The app is built to be lightweight and responsive, providing smooth performance across both Android and iOS platforms. With clear categorization and reminder features, it helps users stay on top of their to-do lists. The clean design and simple functionality make task management straightforward and effective.
-
-## Android Recording 
 
 
-https://github.com/user-attachments/assets/83f347a5-920b-41e3-8556-9c67a70987b1
+# ToDos App
+
+A Flutter-based task management application that allows users to add tasks, view them on a calendar, set due dates, edit tasks, mark them as completed, and delete tasks.
+
+## Table of Contents
+
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Architecture](#architecture)
+- [State Management](#state-management)
+- [Pages and Functionality](#pages-and-functionality)
+- [Setup](#setup)
+- [Contributors](#contributors)
+- [License](#license)
+
+## Features
+
+- **Add Task**: Users can create tasks with titles and descriptions.
+- **Show Calendar**: A calendar view to visualize tasks by date.
+- **Add Date to Task**: Users can assign due dates to tasks using the calendar.
+- **Edit Task**: Users can update the task details.
+- **Mark Task as Completed**: Tasks can be marked as completed, distinguishing them from pending tasks.
+- **Delete Task**: Users can remove tasks from the list.
+
+## Technology Stack
+
+- **Framework**: Flutter
+- **Language**: Dart
+- **State Management**: Provider or SetState
+
+## Architecture
+
+The app follows a simple MVVM (Model-View-ViewModel) architecture, ensuring clear separation of concerns for easy scalability and maintainability.
+
+### Key Components:
+
+- **Model**: Defines the task structure, including task details, status, and date.
+- **View**: UI components such as task lists, calendars, and forms for adding or editing tasks.
+- **ViewModel**: Handles business logic and task management, interacting with the model and updating the view.
+
+## State Management
+
+The app uses the **Provider** package (or `SetState`, depending on your implementation) for managing the state of tasks and their interaction with the UI. This ensures that the UI reacts efficiently to changes in the task list.
+
+## Pages and Functionality
+
+### Add Task
+
+- **Task Form**: Users can enter the task title, description, and due date when creating a new task.
+
+### Calendar View
+
+- **Visualize Tasks**: A calendar displays tasks based on their due dates. Users can easily navigate between months and select dates to view or add tasks.
+
+### Task Management
+
+- **Edit Task**: Users can modify existing tasks, including changing the title, description, and due date.
+- **Mark as Completed**: Users can mark tasks as done, and the app will visually indicate completed tasks.
+- **Delete Task**: Tasks can be deleted individually, permanently removing them from the task list.
+
+## Setup
+
+To set up and run the project locally, follow these steps:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/your-username/todos-app.git
+   ```
+
+2. **Navigate to the project directory**:
+
+   ```bash
+   cd todos-app
+   ```
+
+3. **Install dependencies**:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. **Run the app**:
+
+   ```bash
+   flutter run
+   ```
+
+## Contributors
+
+- **Rohit Prajapati** - Junior Developer
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 ## Android Screenshot
 ![ToDo_App](https://github.com/user-attachments/assets/6d4c66f5-fced-47a6-8485-d5f07a3e0989)
+
+## Android Recording 
+
+https://github.com/user-attachments/assets/83f347a5-920b-41e3-8556-9c67a70987b1
