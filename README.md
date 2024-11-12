@@ -8,8 +8,6 @@ A Flutter-based task management application that allows users to add tasks, view
 
 - [Features](#features)
 - [Technology Stack](#technology-stack)
-- [Architecture](#architecture)
-- [State Management](#state-management)
 - [Pages and Functionality](#pages-and-functionality)
 - [Setup](#setup)
 - [Contributors](#contributors)
@@ -29,20 +27,6 @@ A Flutter-based task management application that allows users to add tasks, view
 - **Framework**: Flutter
 - **Language**: Dart
 - **State Management**: Provider or SetState
-
-## Architecture
-
-The app follows a simple MVVM (Model-View-ViewModel) architecture, ensuring clear separation of concerns for easy scalability and maintainability.
-
-### Key Components:
-
-- **Model**: Defines the task structure, including task details, status, and date.
-- **View**: UI components such as task lists, calendars, and forms for adding or editing tasks.
-- **ViewModel**: Handles business logic and task management, interacting with the model and updating the view.
-
-## State Management
-
-The app uses the **Provider** package (or `SetState`, depending on your implementation) for managing the state of tasks and their interaction with the UI. This ensures that the UI reacts efficiently to changes in the task list.
 
 ## Pages and Functionality
 
